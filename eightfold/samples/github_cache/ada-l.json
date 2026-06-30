@@ -1,0 +1,13 @@
+{
+  "login": "ada-l",
+  "name": "Ada Lovelace",
+  "bio": "Principal Engineer · distributed systems & correctness",
+  "company": "@analytical-engines",
+  "blog": "https://ada.dev",
+  "location": "London, UK",
+  "email": null,
+  "public_repos": 48,
+  "followers": 1820,
+  "html_url": "https://github.com/ada-l",
+  "_languages": ["Python", "Rust", "Go"]
+}

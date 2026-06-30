@@ -1,0 +1,13 @@
+{
+  "login": "aturing",
+  "name": "Alan Turing",
+  "bio": "Computation, cryptanalysis, and machine intelligence",
+  "company": "Bletchley Park",
+  "blog": "",
+  "location": "London, UK",
+  "email": null,
+  "public_repos": 7,
+  "followers": 5000,
+  "html_url": "https://github.com/aturing",
+  "_languages": ["Python", "C++", "Haskell"]
+}

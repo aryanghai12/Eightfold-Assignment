@@ -1,0 +1,70 @@
+[
+  {
+    "full_name": "Grace Hopper",
+    "primary_email": "grace.hopper@navy.mil",
+    "phone": null,
+    "skills": [
+      "C++",
+      "COBOL",
+      "Compilers",
+      "C"
+    ],
+    "overall_confidence": 0.8523,
+    "field_confidence": {
+      "full_name": 0.9036,
+      "primary_email": 0.8924,
+      "skills": 0.826
+    }
+  },
+  {
+    "full_name": "Ada Lovelace",
+    "primary_email": "ada@analytical.io",
+    "phone": "+14155550132",
+    "skills": [
+      "Python",
+      "Rust",
+      "Distributed Systems",
+      "GraphQL",
+      "Kubernetes",
+      "Go"
+    ],
+    "overall_confidence": 0.8951,
+    "field_confidence": {
+      "full_name": 0.9536,
+      "primary_email": 0.99,
+      "phone": 0.982,
+      "skills": 0.876
+    }
+  },
+  {
+    "full_name": "Alan Turing",
+    "primary_email": "alan.turing@bletchley.org",
+    "phone": "+442079460958",
+    "skills": [
+      "C++",
+      "Python",
+      "Haskell",
+      "Algorithms",
+      "Distributed Systems",
+      "Machine Learning"
+    ],
+    "overall_confidence": 0.8267,
+    "field_confidence": {
+      "full_name": 0.933,
+      "primary_email": 0.932,
+      "phone": 0.932,
+      "skills": 0.715
+    }
+  },
+  {
+    "full_name": "Katherine Johnson",
+    "primary_email": "katherine@nasa.gov",
+    "phone": null,
+    "skills": null,
+    "overall_confidence": 0.8215,
+    "field_confidence": {
+      "full_name": 0.833,
+      "primary_email": 0.882
+    }
+  }
+]

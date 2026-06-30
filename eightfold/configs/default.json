@@ -1,0 +1,19 @@
+{
+  "_comment": "The full default canonical schema, with provenance and confidence enabled. This is what you get when you pass no --config at all.",
+  "fields": [
+    { "path": "candidate_id", "type": "string", "required": true },
+    { "path": "full_name", "type": "string" },
+    { "path": "emails", "type": "string[]" },
+    { "path": "phones", "type": "string[]" },
+    { "path": "location", "type": "object" },
+    { "path": "links", "type": "object" },
+    { "path": "headline", "type": "string" },
+    { "path": "years_experience", "type": "number" },
+    { "path": "skills", "type": "object[]" },
+    { "path": "experience", "type": "object[]" },
+    { "path": "education", "type": "object[]" }
+  ],
+  "include_confidence": true,
+  "include_provenance": true,
+  "on_missing": "null"
+}

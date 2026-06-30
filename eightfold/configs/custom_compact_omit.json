@@ -1,0 +1,14 @@
+{
+  "_comment": "A compact export that demonstrates on_missing='omit' (absent fields drop out of the object entirely instead of becoming null), deep remaps (location.country, links.github), and field renaming.",
+  "fields": [
+    { "path": "id", "from": "candidate_id", "type": "string", "required": true },
+    { "path": "name", "from": "full_name", "type": "string" },
+    { "path": "email", "from": "emails[0]", "type": "string" },
+    { "path": "country", "from": "location.country", "type": "string" },
+    { "path": "github", "from": "links.github", "type": "string" },
+    { "path": "top_skills", "from": "skills[].name", "type": "string[]", "normalize": "canonical" }
+  ],
+  "include_confidence": false,
+  "include_provenance": false,
+  "on_missing": "omit"
+}

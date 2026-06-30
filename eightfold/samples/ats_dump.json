@@ -1,0 +1,39 @@
+{
+  "candidates": [
+    {
+      "applicant_name": "Ada Lovelace",
+      "contact": { "email_address": "ada@analytical.io", "mobile": "+1-415-555-0132" },
+      "job_title": "Principal Software Engineer",
+      "experience_years": 12,
+      "locale": "London, UK",
+      "skill_tags": ["python", "Distributed Systems", "rust", "k8s", "GraphQL"],
+      "social": {
+        "linkedin_url": "https://linkedin.com/in/adalovelace",
+        "github_url": "https://github.com/ada-l"
+      },
+      "history": [
+        { "org": "Analytical Engines", "role": "Principal Engineer", "from": "2018-03", "to": "present",
+          "summary": "Leads the distributed compute platform team." },
+        { "org": "Babbage Corp", "role": "Senior Engineer", "from": "Jun 2014", "to": "2018-02" }
+      ],
+      "schools": [
+        { "name": "University of London", "degree": "BSc", "major": "Mathematics", "grad": "2010" }
+      ]
+    },
+    {
+      "applicant_name": "Grace Hopper",
+      "contact": { "email_address": "grace.hopper@navy.mil" },
+      "job_title": "Distinguished Engineer",
+      "experience_years": 30,
+      "locale": "New York, NY, USA",
+      "skill_tags": ["COBOL", "Compilers", "c++"],
+      "social": { "github_url": "github.com/grace-h" },
+      "history": [
+        { "org": "US Navy", "role": "Senior Systems Engineer", "from": "1944-01", "to": "1986-08" }
+      ],
+      "schools": [
+        { "name": "Yale University", "degree": "PhD", "major": "Mathematics", "grad": "1934" }
+      ]
+    }
+  ]
+}

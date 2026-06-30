@@ -1,0 +1,50 @@
+[
+  {
+    "id": "cand_8779f6218564",
+    "name": "Grace Hopper",
+    "email": "grace.hopper@navy.mil",
+    "country": "US",
+    "github": "https://github.com/grace-h",
+    "top_skills": [
+      "C++",
+      "COBOL",
+      "Compilers",
+      "C"
+    ]
+  },
+  {
+    "id": "cand_9d943f3d8eb4",
+    "name": "Ada Lovelace",
+    "email": "ada@analytical.io",
+    "country": "GB",
+    "github": "https://github.com/ada-l",
+    "top_skills": [
+      "Python",
+      "Rust",
+      "Distributed Systems",
+      "GraphQL",
+      "Kubernetes",
+      "Go"
+    ]
+  },
+  {
+    "id": "cand_a9b00b488629",
+    "name": "Alan Turing",
+    "email": "alan.turing@bletchley.org",
+    "country": "GB",
+    "github": "https://github.com/aturing",
+    "top_skills": [
+      "C++",
+      "Python",
+      "Haskell",
+      "Algorithms",
+      "Distributed Systems",
+      "Machine Learning"
+    ]
+  },
+  {
+    "id": "cand_f7efa77c1f2b",
+    "name": "Katherine Johnson",
+    "email": "katherine@nasa.gov"
+  }
+]

@@ -1,0 +1,16 @@
+Alan Turing
+alan.turing@bletchley.org | +44 20 7946 0958 | github.com/aturing
+
+Professional Summary
+Research engineer focused on computation, cryptanalysis, and machine intelligence.
+
+Skills
+Python, C++, Algorithms, Machine Learning, Distributed Systems
+
+Experience
+Staff Research Engineer, Bletchley Park (1939-09 - present)
+Senior Cryptanalyst, GC&CS (1936-01 - 1939-08)
+
+Education
+King's College Cambridge, BA in Mathematics, 1934
+Princeton University, PhD in Mathematics, 1938

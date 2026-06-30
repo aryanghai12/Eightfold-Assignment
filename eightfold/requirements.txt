@@ -1,0 +1,9 @@
+# Runtime dependency (the only hard one): correct, locale-aware phone -> E.164.
+phonenumbers>=8.13
+
+# Optional: enables resume .pdf text extraction. The pipeline runs fine without it
+# (PDF resumes are simply skipped with a warning). Install with: pip install pdfminer.six
+# pdfminer.six>=20221105
+
+# Dev/test only.
+pytest>=7.0

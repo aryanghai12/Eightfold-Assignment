@@ -1,0 +1,536 @@
+[
+  {
+    "candidate_id": "cand_8779f6218564",
+    "full_name": "Grace Hopper",
+    "emails": [
+      "grace.hopper@navy.mil"
+    ],
+    "phones": null,
+    "location": {
+      "city": "New York",
+      "region": "NY",
+      "country": "US"
+    },
+    "links": {
+      "linkedin": null,
+      "github": "https://github.com/grace-h",
+      "portfolio": null,
+      "other": []
+    },
+    "headline": "Distinguished Engineer",
+    "years_experience": 30,
+    "skills": [
+      {
+        "name": "C++",
+        "confidence": 0.826,
+        "sources": [
+          "ats_json",
+          "github"
+        ]
+      },
+      {
+        "name": "COBOL",
+        "confidence": 0.776,
+        "sources": [
+          "ats_json"
+        ]
+      },
+      {
+        "name": "Compilers",
+        "confidence": 0.776,
+        "sources": [
+          "ats_json"
+        ]
+      },
+      {
+        "name": "C",
+        "confidence": 0.665,
+        "sources": [
+          "github"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "US Navy",
+        "title": "Senior Systems Engineer",
+        "start": "1944-01",
+        "end": "1986-08",
+        "summary": null
+      }
+    ],
+    "education": [
+      {
+        "institution": "Yale University",
+        "degree": "PhD",
+        "field": "Mathematics",
+        "end_year": 1934
+      }
+    ],
+    "overall_confidence": 0.8523,
+    "field_confidence": {
+      "full_name": 0.9036,
+      "emails": 0.8924,
+      "location": 0.776,
+      "links": 0.9025,
+      "headline": 0.776,
+      "years_experience": 0.776,
+      "skills": 0.826,
+      "experience": 0.8245,
+      "education": 0.8245
+    },
+    "provenance": [
+      {
+        "field": "education",
+        "source": "ats_json:samples/ats_dump.json",
+        "method": "ats_field_map"
+      },
+      {
+        "field": "emails",
+        "source": "ats_json:samples/ats_dump.json",
+        "method": "ats_field_map"
+      },
+      {
+        "field": "experience",
+        "source": "ats_json:samples/ats_dump.json",
+        "method": "ats_field_map"
+      },
+      {
+        "field": "full_name",
+        "source": "ats_json:samples/ats_dump.json",
+        "method": "ats_field_map"
+      },
+      {
+        "field": "headline",
+        "source": "ats_json:samples/ats_dump.json",
+        "method": "ats_field_map"
+      },
+      {
+        "field": "links",
+        "source": "github:samples/github_urls.txt",
+        "method": "github_api"
+      },
+      {
+        "field": "location",
+        "source": "ats_json:samples/ats_dump.json",
+        "method": "ats_field_map"
+      },
+      {
+        "field": "skills",
+        "source": "ats_json:samples/ats_dump.json",
+        "method": "ats_field_map"
+      },
+      {
+        "field": "skills",
+        "source": "github:samples/github_urls.txt",
+        "method": "github_api"
+      },
+      {
+        "field": "years_experience",
+        "source": "ats_json:samples/ats_dump.json",
+        "method": "ats_field_map"
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand_9d943f3d8eb4",
+    "full_name": "Ada Lovelace",
+    "emails": [
+      "ada@analytical.io"
+    ],
+    "phones": [
+      "+14155550132"
+    ],
+    "location": {
+      "city": "London",
+      "region": null,
+      "country": "GB"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/adalovelace",
+      "github": "https://github.com/ada-l",
+      "portfolio": "https://ada.dev",
+      "other": []
+    },
+    "headline": "Principal Software Engineer",
+    "years_experience": 12,
+    "skills": [
+      {
+        "name": "Python",
+        "confidence": 0.876,
+        "sources": [
+          "ats_json",
+          "github",
+          "recruiter_notes"
+        ]
+      },
+      {
+        "name": "Rust",
+        "confidence": 0.876,
+        "sources": [
+          "ats_json",
+          "github",
+          "recruiter_notes"
+        ]
+      },
+      {
+        "name": "Distributed Systems",
+        "confidence": 0.826,
+        "sources": [
+          "ats_json",
+          "recruiter_notes"
+        ]
+      },
+      {
+        "name": "GraphQL",
+        "confidence": 0.826,
+        "sources": [
+          "ats_json",
+          "recruiter_notes"
+        ]
+      },
+      {
+        "name": "Kubernetes",
+        "confidence": 0.776,
+        "sources": [
+          "ats_json"
+        ]
+      },
+      {
+        "name": "Go",
+        "confidence": 0.665,
+        "sources": [
+          "github"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Babbage Corp",
+        "title": "Senior Engineer",
+        "start": "2014-06",
+        "end": "2018-02",
+        "summary": null
+      },
+      {
+        "company": "Analytical Engines",
+        "title": "Principal Engineer",
+        "start": "2018-03",
+        "end": "present",
+        "summary": "Leads the distributed compute platform team."
+      }
+    ],
+    "education": [
+      {
+        "institution": "University of London",
+        "degree": "BSc",
+        "field": "Mathematics",
+        "end_year": 2010
+      }
+    ],
+    "overall_confidence": 0.8951,
+    "field_confidence": {
+      "full_name": 0.9536,
+      "emails": 0.99,
+      "phones": 0.982,
+      "location": 0.776,
+      "links": 0.9025,
+      "headline": 0.6596,
+      "years_experience": 0.826,
+      "skills": 0.876,
+      "experience": 0.8245,
+      "education": 0.8245
+    },
+    "provenance": [
+      {
+        "field": "education",
+        "source": "ats_json:samples/ats_dump.json",
+        "method": "ats_field_map"
+      },
+      {
+        "field": "emails",
+        "source": "ats_json:samples/ats_dump.json",
+        "method": "ats_field_map"
+      },
+      {
+        "field": "experience",
+        "source": "ats_json:samples/ats_dump.json",
+        "method": "ats_field_map"
+      },
+      {
+        "field": "full_name",
+        "source": "ats_json:samples/ats_dump.json",
+        "method": "ats_field_map"
+      },
+      {
+        "field": "headline",
+        "source": "ats_json:samples/ats_dump.json",
+        "method": "ats_field_map"
+      },
+      {
+        "field": "links",
+        "source": "ats_json:samples/ats_dump.json",
+        "method": "ats_field_map"
+      },
+      {
+        "field": "links",
+        "source": "github:samples/github_urls.txt",
+        "method": "github_api"
+      },
+      {
+        "field": "location",
+        "source": "ats_json:samples/ats_dump.json",
+        "method": "ats_field_map"
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv:samples/recruiter_export.csv",
+        "method": "csv_column"
+      },
+      {
+        "field": "skills",
+        "source": "ats_json:samples/ats_dump.json",
+        "method": "ats_field_map"
+      },
+      {
+        "field": "skills",
+        "source": "github:samples/github_urls.txt",
+        "method": "github_api"
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_notes:samples/notes/ada_notes.txt",
+        "method": "regex_freetext"
+      },
+      {
+        "field": "years_experience",
+        "source": "ats_json:samples/ats_dump.json",
+        "method": "ats_field_map"
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand_a9b00b488629",
+    "full_name": "Alan Turing",
+    "emails": [
+      "alan.turing@bletchley.org"
+    ],
+    "phones": [
+      "+442079460958"
+    ],
+    "location": {
+      "city": "London",
+      "region": null,
+      "country": "GB"
+    },
+    "links": {
+      "linkedin": null,
+      "github": "https://github.com/aturing",
+      "portfolio": null,
+      "other": []
+    },
+    "headline": "Staff Research Engineer",
+    "years_experience": null,
+    "skills": [
+      {
+        "name": "C++",
+        "confidence": 0.715,
+        "sources": [
+          "github",
+          "resume"
+        ]
+      },
+      {
+        "name": "Python",
+        "confidence": 0.715,
+        "sources": [
+          "github",
+          "resume"
+        ]
+      },
+      {
+        "name": "Haskell",
+        "confidence": 0.665,
+        "sources": [
+          "github"
+        ]
+      },
+      {
+        "name": "Algorithms",
+        "confidence": 0.663,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "Distributed Systems",
+        "confidence": 0.663,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "Machine Learning",
+        "confidence": 0.663,
+        "sources": [
+          "resume"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "GC&CS",
+        "title": "Senior Cryptanalyst",
+        "start": "1936-01",
+        "end": "1939-08",
+        "summary": null
+      },
+      {
+        "company": "Bletchley Park",
+        "title": "Staff Research Engineer",
+        "start": "1939-09",
+        "end": "present",
+        "summary": null
+      }
+    ],
+    "education": [
+      {
+        "institution": "Princeton University",
+        "degree": "PhD",
+        "field": "Mathematics",
+        "end_year": 1938
+      },
+      {
+        "institution": "King's College Cambridge",
+        "degree": "BA",
+        "field": "Mathematics",
+        "end_year": 1934
+      }
+    ],
+    "overall_confidence": 0.8267,
+    "field_confidence": {
+      "full_name": 0.933,
+      "emails": 0.932,
+      "phones": 0.932,
+      "location": 0.5225,
+      "links": 0.9025,
+      "headline": 0.735,
+      "skills": 0.715,
+      "experience": 0.735,
+      "education": 0.697
+    },
+    "provenance": [
+      {
+        "field": "education",
+        "source": "resume:samples/resumes/alan_turing.txt",
+        "method": "resume_section"
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_csv:samples/recruiter_export.csv",
+        "method": "csv_column"
+      },
+      {
+        "field": "experience",
+        "source": "recruiter_csv:samples/recruiter_export.csv",
+        "method": "csv_column"
+      },
+      {
+        "field": "full_name",
+        "source": "recruiter_csv:samples/recruiter_export.csv",
+        "method": "csv_column"
+      },
+      {
+        "field": "headline",
+        "source": "recruiter_csv:samples/recruiter_export.csv",
+        "method": "csv_column"
+      },
+      {
+        "field": "links",
+        "source": "github:samples/github_urls.txt",
+        "method": "github_api"
+      },
+      {
+        "field": "location",
+        "source": "github:samples/github_urls.txt",
+        "method": "github_api"
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv:samples/recruiter_export.csv",
+        "method": "csv_column"
+      },
+      {
+        "field": "skills",
+        "source": "github:samples/github_urls.txt",
+        "method": "github_api"
+      },
+      {
+        "field": "skills",
+        "source": "resume:samples/resumes/alan_turing.txt",
+        "method": "resume_section"
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand_f7efa77c1f2b",
+    "full_name": "Katherine Johnson",
+    "emails": [
+      "katherine@nasa.gov"
+    ],
+    "phones": null,
+    "location": {
+      "city": null,
+      "region": null,
+      "country": null
+    },
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": "Research Mathematician",
+    "years_experience": null,
+    "skills": null,
+    "experience": [
+      {
+        "company": "NASA",
+        "title": "Research Mathematician",
+        "start": null,
+        "end": "present",
+        "summary": null
+      }
+    ],
+    "education": null,
+    "overall_confidence": 0.8215,
+    "field_confidence": {
+      "full_name": 0.833,
+      "emails": 0.882,
+      "headline": 0.735,
+      "experience": 0.735
+    },
+    "provenance": [
+      {
+        "field": "emails",
+        "source": "recruiter_csv:samples/recruiter_export.csv",
+        "method": "csv_column"
+      },
+      {
+        "field": "experience",
+        "source": "recruiter_csv:samples/recruiter_export.csv",
+        "method": "csv_column"
+      },
+      {
+        "field": "full_name",
+        "source": "recruiter_csv:samples/recruiter_export.csv",
+        "method": "csv_column"
+      },
+      {
+        "field": "headline",
+        "source": "recruiter_csv:samples/recruiter_export.csv",
+        "method": "csv_column"
+      }
+    ]
+  }
+]

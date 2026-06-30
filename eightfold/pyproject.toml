@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "candidate-transformer"
+version = "1.0.0"
+description = "Multi-Source Candidate Data Transformer — messy candidate inputs to one canonical, deduplicated, provenance-tracked profile."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Aryan Ghai", email = "aryanghai1205@gmail.com" }]
+dependencies = [
+    "phonenumbers>=8.13",
+]
+
+[project.optional-dependencies]
+# Optional resume-PDF support; the pipeline degrades gracefully without it.
+pdf = ["pdfminer.six>=20221105"]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+transformer = "transformer.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
