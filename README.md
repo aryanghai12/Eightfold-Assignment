@@ -10,8 +10,6 @@ for — same engine, no code changes.
 > becomes `null` — it is never invented.
 
 This repo is my submission for the Eightfold Engineering Intern (Jul–Dec 2026) assignment.
-The one-page design is in [`DESIGN.md`](DESIGN.md) (and the PDF deliverable next to it);
-a plain-language walkthrough of the whole thing is in [`GUIDE.md`](GUIDE.md).
 
 ---
 
